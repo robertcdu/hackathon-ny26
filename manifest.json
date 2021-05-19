@@ -2,5 +2,22 @@
     "name": "Hackathon Chrome Extension",
     "description": "By Andy Wang and Robert Du",
     "version": "1.0",
-    "manifest_version": 3
+    "manifest_version": 3,
+
+    "permissions": [
+        "contextMenus"
+      ],
+
+    "icons": {
+       "16": "Test Icon.png"
+    },
+      
+    "action": {
+    "default_popup": "popup.html"
+    },
+
+    "background": {
+        "service_worker": "eventPage.js"
+    }
+    
   }
