@@ -1,15 +1,16 @@
 {
-    "name": "Hackathon Chrome Extension",
+    "name": "Amazon Search and Price Comparison",
     "description": "By Andy Wang and Robert Du",
-    "version": "1.0",
+    "version": "0.1",
     "manifest_version": 3,
 
     "permissions": [
-        "contextMenus"
+        "contextMenus",
+        "tabs"
       ],
 
     "icons": {
-       "16": "Test Icon.png"
+       "16": "Small_Icon.png"
     },
       
     "action": {
